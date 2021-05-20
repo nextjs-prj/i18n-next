@@ -1,0 +1,46 @@
+.newscard {
+  display: flex;
+  border-bottom: 1px solid rgba(232, 232, 2321);
+  padding-bottom: 12px;
+  margin: 20px 0;
+  cursor: pointer;
+}
+
+.newscardimg {
+  width: 200px !important;
+  /*height: 50px;*/
+  flex: 1 1 40%;
+  background-color: darkgray;
+  margin-right: 11px;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.newscarddetails {
+  display: flex;
+  flex-direction: column;
+}
+
+.newscardname h3 {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.newscardauthor {
+  color: darkgray;
+  padding: 7px 0;
+}
+
+.newscardminidet {
+  font-weight: 100;
+}
+
+.newscardminidet :nth-child(1) {
+  padding-right: 14px;
+}
+
+.newscardminidet :nth-child(2) {
+  padding-right: 3px;
+}
